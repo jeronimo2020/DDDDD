@@ -1,0 +1,12 @@
+{
+    "ruta_datos": "C:\\Users\\jeron\\Documents\\MODELS\\MOD7\\datos\\forex",
+    "ruta_modelo": "C:\\Users\\jeron\\Documents\\MODELS\\MOD7\\Proyecto\\composiciones\\proceso_2\\modelos",
+    "ruta_checkpoints": "C:\\Users\\jeron\\Documents\\MODELS\\MOD7\\Proyecto\\composiciones\\proceso_2\\checkpoints",
+    "ruta_predicciones": "C:\\Users\\jeron\\Documents\\MODELS\\MOD7\\Proyecto\\composiciones\\proceso_2\\predicciones.txt",
+    "ventana": 100,
+    "parametros_entrenamiento": {
+        "epochs": 50,
+        "batch_size": 32,
+        "learning_rate": 0.001
+    }
+}

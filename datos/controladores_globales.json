@@ -1,0 +1,17 @@
+{
+  "CONFIGURACION": {
+    "modulos": ["cache", "gestor_parametros", "parser", "serializador", "validador_config"]
+  },
+  "INTEGRACION": {
+    "modulos": ["broker", "comunicador", "gestor_eventos", "sincronizador", "validador"]
+  },
+  "MONITORIZACION": {
+    "modulos": ["alertas", "analizador", "dashboard", "logger", "recolector_metricas"]
+  },
+  "RECURSOS": {
+    "modulos": ["gestor_cpu", "gestor_gpu", "gestor_memoria", "gestor_red", "optimizador"]
+  },
+  "SEGURIDAD": {
+    "modulos": ["auditor", "autenticador", "encriptador", "gestor_permisos", "recuperador", "gestor_sesiones"]
+  }
+}

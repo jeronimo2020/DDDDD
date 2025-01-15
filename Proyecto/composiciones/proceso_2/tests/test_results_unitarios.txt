@@ -1,0 +1,36 @@
+========================================================== test session starts ===========================================================
+platform win32 -- Python 3.10.0, pytest-8.3.4, pluggy-1.5.0 -- C:\Users\jeron\Documents\MODELS\MOD6\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\jeron\Documents\MODELS\MOD7\Proyecto
+plugins: dash-2.18.2
+collecting ... collected 9 items
+
+..\..\..\ADQUISICION_DATOS\tests\test_adquisicion_unitarios.py::test_obtener_datos_normalizados FAILED                              [ 11%]
+..\..\..\ADQUISICION_DATOS\tests\test_adquisicion_unitarios.py::test_balanceador PASSED                                             [ 22%]
+..\..\..\ADQUISICION_DATOS\tests\test_adquisicion_unitarios.py::test_constructor_matrices PASSED                                    [ 33%]
+..\..\..\ADQUISICION_DATOS\tests\test_adquisicion_unitarios.py::test_empaquetador PASSED                                            [ 44%]
+..\..\..\ADQUISICION_DATOS\tests\test_adquisicion_unitarios.py::test_escalador PASSED                                               [ 55%]
+..\..\..\ADQUISICION_DATOS\tests\test_adquisicion_unitarios.py::test_generador_ventanas PASSED                                      [ 66%]
+..\..\..\CONTROLADORES_GLOBALES\tests\test_controladores_unitarios.py::test_cargar_configuracion FAILED                             [ 77%]
+..\..\..\NUCLEO_SINAPTICO\tests\test_nucleo_unitarios.py::test_entrenar_modelo PASSED                                               [ 88%]
+..\..\..\NUCLEO_SINAPTICO\tests\test_nucleo_unitarios.py::test_predecir PASSED                                                      [100%]
+
+================================================================ FAILURES ================================================================
+____________________________________________________ test_obtener_datos_normalizados _____________________________________________________
+..\..\..\ADQUISICION_DATOS\tests\test_adquisicion_unitarios.py:12: in test_obtener_datos_normalizados
+    assert datos_normalizados is not None, "Error al obtener los datos normalizados"
+E   AssertionError: Error al obtener los datos normalizados
+E   assert None is not None
+---------------------------------------------------------- Captured stdout call ----------------------------------------------------------
+Error al obtener los datos normalizados: [Errno 2] No such file or directory: 'ruta_a_tu_archivo.csv'
+_______________________________________________________ test_cargar_configuracion ________________________________________________________
+..\..\..\CONTROLADORES_GLOBALES\tests\test_controladores_unitarios.py:10: in test_cargar_configuracion
+    assert configuracion is not None, "Error al cargar la configuración"
+E   AssertionError: Error al cargar la configuración
+E   assert None is not None
+---------------------------------------------------------- Captured stdout call ----------------------------------------------------------
+Error al cargar la configuración: [Errno 2] No such file or directory: 'configuracion.json'
+======================================================== short test summary info =========================================================
+FAILED ..\..\..\ADQUISICION_DATOS\tests\test_adquisicion_unitarios.py::test_obtener_datos_normalizados - AssertionError: Error al obtene...
+FAILED ..\..\..\CONTROLADORES_GLOBALES\tests\test_controladores_unitarios.py::test_cargar_configuracion - AssertionError: Error al carga...
+================================================= 2 failed, 7 passed, 1 warning in 8.41s =================================================

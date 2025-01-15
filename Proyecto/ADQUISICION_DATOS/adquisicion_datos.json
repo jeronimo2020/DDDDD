@@ -1,0 +1,17 @@
+{
+  "ALMACENAMIENTO": {
+    "modulos": ["cache", "compressor", "gestor_archivos", "indexador", "versionador"]
+  },
+  "OBTENCION_INICIAL": {
+    "modulos": ["conector", "extractor", "gestor_errores", "parser", "validador"]
+  },
+  "PREPARACION_FINAL": {
+    "modulos": ["balanceador", "constructor_matrices", "empaquetador", "escalador", "generador_ventanas"]
+  },
+  "TRANSFORMACION": {
+    "modulos": ["agregador", "convertidor", "enriquecedor", "filtro", "procesador"]
+  },
+  "VALIDACION": {
+    "modulos": ["analizador_datos", "detector_anomalias", "gestor_calidad", "normalizador", "verificador_estructura", "gestor_sesiones"]
+  }
+}

@@ -1,0 +1,343 @@
+{
+    "ruta_datos": "/ruta/a/tu/directorio",
+    "ruta_modelo": "./modelos",
+    "ruta_checkpoints": "./checkpoints",
+    "epochs": 50,
+    "batch_size": 32,
+    "adquisicion_datos": {
+        "almacenamiento": {
+            "cache": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "compressor": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "gestor_archivos": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "indexador": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "versionador": {
+                "param1": "valor1",
+                "param2": "valor2"
+            }
+        },
+        "obtencion_inicial": {
+            "conector": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "extractor": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "gestor_errores": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "parser": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "validador": {
+                "param1": "valor1",
+                "param2": "valor2"
+            }
+        },
+        "preparacion_final": {
+            "balanceador": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "constructor_matrices": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "empaquetador": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "escalador": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "generador_ventanas": {
+                "param1": "valor1",
+                "param2": "valor2"
+            }
+        },
+        "transformacion": {
+            "agregador": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "convertidor": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "enriquecedor": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "filtro": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "procesador": {
+                "param1": "valor1",
+                "param2": "valor2"
+            }
+        },
+        "validacion": {
+            "analizador_datos": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "detector_anomalias": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "gestor_calidad": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "normalizador": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "verificador_estructura": {
+                "param1": "valor1",
+                "param2": "valor2"
+            }
+        }
+    },
+    "controladores_globales": {
+        "configuracion": {
+            "cache": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "gestor_parametros": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "parser": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "serializador": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "validador_config": {
+                "param1": "valor1",
+                "param2": "valor2"
+            }
+        },
+        "integracion": {
+            "broker": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "comunicador": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "gestor_eventos": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "sincronizador": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "validador": {
+                "param1": "valor1",
+                "param2": "valor2"
+            }
+        },
+        "monitorizacion": {
+            "alertas": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "analizador": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "dashboard": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "logger": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "recolector_metricas": {
+                "param1": "valor1",
+                "param2": "valor2"
+            }
+        },
+        "recursos": {
+            "gestor_cpu": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "gestor_gpu": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "gestor_memoria": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "gestor_red": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "optimizador": {
+                "param1": "valor1",
+                "param2": "valor2"
+            }
+        },
+        "seguridad": {
+            "auditor": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "autenticador": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "encriptador": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "gestor_permisos": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "recuperador": {
+                "param1": "valor1",
+                "param2": "valor2"
+            }
+        }
+    },
+    "nucleo_sinaptico": {
+        "construccion_modelo": {
+            "arquitecto_red": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "gestor_capas": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "configurador_red": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "constructor_bloques": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "validador_arquitectura": {
+                "param1": "valor1",
+                "param2": "valor2"
+            }
+        },
+        "entrenamiento": {
+            "gestor_entrenamiento": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "optimizador_pesos": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "monitor_entrenamiento": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "gestor_lotes": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "checkpoint_manager": {
+                "param1": "valor1",
+                "param2": "valor2"
+            }
+        },
+        "validacion": {
+            "evaluador_modelo": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "metricas_especializadas": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "generador_reportes": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "validador_cruzado": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "analizador_resultados": {
+                "param1": "valor1",
+                "param2": "valor2"
+            }
+        },
+        "optimizacion": {
+            "ajuste_hiperparametros": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "selector_arquitectura": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "optimizador_rendimiento": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "buscador_topologia": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "evaluador_configuraciones": {
+                "param1": "valor1",
+                "param2": "valor2"
+            }
+        },
+        "inferencia": {
+            "motor_prediccion": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "gestor_batch": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "pipeline_inferencia": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "cache_predicciones": {
+                "param1": "valor1",
+                "param2": "valor2"
+            },
+            "monitor_rendimiento": {
+                "param1": "valor1",
+                "param2": "valor2"
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "CONSTRUCCION_MODELO": {
+    "modulos": ["arquitecto_red", "gestor_capas", "configurador_red", "constructor_bloques", "validador_arquitectura"]
+  },
+  "ENTRENAMIENTO": {
+    "modulos": ["gestor_entrenamiento", "optimizador_pesos", "monitor_entrenamiento", "gestor_lotes", "checkpoint_manager"]
+  },
+  "VALIDACION": {
+    "modulos": ["evaluador_modelo", "metricas_especializadas", "generador_reportes", "validador_cruzado", "analizador_resultados", "analizador_datos"]
+  },
+  "OPTIMIZACION": {
+    "modulos": ["ajuste_hiperparametros", "selector_arquitectura", "optimizador_rendimiento", "buscador_topologia", "evaluador_configuraciones"]
+  },
+  "INFERENCIA": {
+    "modulos": ["motor_prediccion", "gestor_batch", "pipeline_inferencia", "cache_predicciones", "monitor_rendimiento"]
+  }
+}
